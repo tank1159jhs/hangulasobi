@@ -1,0 +1,1682 @@
+[
+  {
+    "sentence": "안녕하세요",
+    "meaning": {
+      "ko": "안녕하세요",
+      "ja": "こんにちは",
+      "en": "Hello"
+    },
+    "category": "greetings",
+    "emoji": "👋"
+  },
+  {
+    "sentence": "안녕히 가세요",
+    "meaning": {
+      "ko": "안녕히 가세요",
+      "ja": "さようなら（相手が去る）",
+      "en": "Goodbye (to someone leaving)"
+    },
+    "category": "greetings",
+    "emoji": "👋"
+  },
+  {
+    "sentence": "안녕히 계세요",
+    "meaning": {
+      "ko": "안녕히 계세요",
+      "ja": "さようなら（自分が去る）",
+      "en": "Goodbye (when you leave)"
+    },
+    "category": "greetings",
+    "emoji": "👋"
+  },
+  {
+    "sentence": "감사합니다",
+    "meaning": {
+      "ko": "감사합니다",
+      "ja": "ありがとうございます",
+      "en": "Thank you"
+    },
+    "category": "greetings",
+    "emoji": "🙏"
+  },
+  {
+    "sentence": "죄송합니다",
+    "meaning": {
+      "ko": "죄송합니다",
+      "ja": "申し訳ございません",
+      "en": "I'm sorry"
+    },
+    "category": "greetings",
+    "emoji": "🙇"
+  },
+  {
+    "sentence": "만나서 반갑습니다",
+    "meaning": {
+      "ko": "만나서 반갑습니다",
+      "ja": "お会いできて嬉しいです",
+      "en": "Nice to meet you"
+    },
+    "category": "greetings",
+    "emoji": "😊"
+  },
+  {
+    "sentence": "잘 지냈어요",
+    "meaning": {
+      "ko": "잘 지냈어요",
+      "ja": "元気でしたか",
+      "en": "How have you been?"
+    },
+    "category": "greetings",
+    "emoji": "💬"
+  },
+  {
+    "sentence": "좋은 아침이에요",
+    "meaning": {
+      "ko": "좋은 아침이에요",
+      "ja": "おはようございます",
+      "en": "Good morning"
+    },
+    "category": "greetings",
+    "emoji": "🌅"
+  },
+  {
+    "sentence": "잘 자요",
+    "meaning": {
+      "ko": "잘 자요",
+      "ja": "おやすみなさい",
+      "en": "Good night"
+    },
+    "category": "greetings",
+    "emoji": "😴"
+  },
+  {
+    "sentence": "저는 학생입니다",
+    "meaning": {
+      "ko": "저는 학생입니다",
+      "ja": "私は学生です",
+      "en": "I am a student"
+    },
+    "category": "introduction",
+    "emoji": "👨‍🎓"
+  },
+  {
+    "sentence": "제 이름은 김민수예요",
+    "meaning": {
+      "ko": "제 이름은 김민수예요",
+      "ja": "私の名前はキム・ミンスです",
+      "en": "My name is Kim Minsu"
+    },
+    "category": "introduction",
+    "emoji": "💁"
+  },
+  {
+    "sentence": "한국 사람이에요",
+    "meaning": {
+      "ko": "한국 사람이에요",
+      "ja": "韓国人です",
+      "en": "I'm Korean"
+    },
+    "category": "introduction",
+    "emoji": "🇰🇷"
+  },
+  {
+    "sentence": "일본에서 왔어요",
+    "meaning": {
+      "ko": "일본에서 왔어요",
+      "ja": "日本から来ました",
+      "en": "I'm from Japan"
+    },
+    "category": "introduction",
+    "emoji": "🇯🇵"
+  },
+  {
+    "sentence": "스물다섯 살이에요",
+    "meaning": {
+      "ko": "스물다섯 살이에요",
+      "ja": "25歳です",
+      "en": "I'm 25 years old"
+    },
+    "category": "introduction",
+    "emoji": "🎂"
+  },
+  {
+    "sentence": "서울에 살아요",
+    "meaning": {
+      "ko": "서울에 살아요",
+      "ja": "ソウルに住んでいます",
+      "en": "I live in Seoul"
+    },
+    "category": "introduction",
+    "emoji": "🏙️"
+  },
+  {
+    "sentence": "이것은 무엇이에요",
+    "meaning": {
+      "ko": "이것은 무엇이에요",
+      "ja": "これは何ですか",
+      "en": "What is this?"
+    },
+    "category": "questions",
+    "emoji": "❓"
+  },
+  {
+    "sentence": "얼마예요",
+    "meaning": {
+      "ko": "얼마예요",
+      "ja": "いくらですか",
+      "en": "How much is it?"
+    },
+    "category": "shopping",
+    "emoji": "💰"
+  },
+  {
+    "sentence": "어디예요",
+    "meaning": {
+      "ko": "어디예요",
+      "ja": "どこですか",
+      "en": "Where is it?"
+    },
+    "category": "questions",
+    "emoji": "📍"
+  },
+  {
+    "sentence": "언제예요",
+    "meaning": {
+      "ko": "언제예요",
+      "ja": "いつですか",
+      "en": "When is it?"
+    },
+    "category": "questions",
+    "emoji": "📅"
+  },
+  {
+    "sentence": "왜 그래요",
+    "meaning": {
+      "ko": "왜 그래요",
+      "ja": "どうしてですか",
+      "en": "Why is that?"
+    },
+    "category": "questions",
+    "emoji": "🤔"
+  },
+  {
+    "sentence": "누구세요",
+    "meaning": {
+      "ko": "누구세요",
+      "ja": "どなたですか",
+      "en": "Who are you?"
+    },
+    "category": "questions",
+    "emoji": "👤"
+  },
+  {
+    "sentence": "이것 주세요",
+    "meaning": {
+      "ko": "이것 주세요",
+      "ja": "これください",
+      "en": "Please give me this"
+    },
+    "category": "shopping",
+    "emoji": "🛒"
+  },
+  {
+    "sentence": "물 한 병 주세요",
+    "meaning": {
+      "ko": "물 한 병 주세요",
+      "ja": "水一本ください",
+      "en": "One bottle of water, please"
+    },
+    "category": "shopping",
+    "emoji": "💧"
+  },
+  {
+    "sentence": "계산해 주세요",
+    "meaning": {
+      "ko": "계산해 주세요",
+      "ja": "お会計お願いします",
+      "en": "Check, please"
+    },
+    "category": "shopping",
+    "emoji": "💳"
+  },
+  {
+    "sentence": "카드로 할게요",
+    "meaning": {
+      "ko": "카드로 할게요",
+      "ja": "カードでお願いします",
+      "en": "I'll pay by card"
+    },
+    "category": "shopping",
+    "emoji": "💳"
+  },
+  {
+    "sentence": "영수증 주세요",
+    "meaning": {
+      "ko": "영수증 주세요",
+      "ja": "領収書ください",
+      "en": "Receipt, please"
+    },
+    "category": "shopping",
+    "emoji": "🧾"
+  },
+  {
+    "sentence": "화장실이 어디예요",
+    "meaning": {
+      "ko": "화장실이 어디예요",
+      "ja": "トイレはどこですか",
+      "en": "Where is the restroom?"
+    },
+    "category": "directions",
+    "emoji": "🚻"
+  },
+  {
+    "sentence": "역이 어디예요",
+    "meaning": {
+      "ko": "역이 어디예요",
+      "ja": "駅はどこですか",
+      "en": "Where is the station?"
+    },
+    "category": "directions",
+    "emoji": "🚉"
+  },
+  {
+    "sentence": "오른쪽으로 가세요",
+    "meaning": {
+      "ko": "오른쪽으로 가세요",
+      "ja": "右に行ってください",
+      "en": "Go to the right"
+    },
+    "category": "directions",
+    "emoji": "➡️"
+  },
+  {
+    "sentence": "왼쪽으로 가세요",
+    "meaning": {
+      "ko": "왼쪽으로 가세요",
+      "ja": "左に行ってください",
+      "en": "Go to the left"
+    },
+    "category": "directions",
+    "emoji": "⬅️"
+  },
+  {
+    "sentence": "똑바로 가세요",
+    "meaning": {
+      "ko": "똑바로 가세요",
+      "ja": "まっすぐ行ってください",
+      "en": "Go straight"
+    },
+    "category": "directions",
+    "emoji": "⬆️"
+  },
+  {
+    "sentence": "여기에서 가까워요",
+    "meaning": {
+      "ko": "여기에서 가까워요",
+      "ja": "ここから近いです",
+      "en": "It's close from here"
+    },
+    "category": "directions",
+    "emoji": "📏"
+  },
+  {
+    "sentence": "메뉴판 주세요",
+    "meaning": {
+      "ko": "메뉴판 주세요",
+      "ja": "メニューください",
+      "en": "Menu, please"
+    },
+    "category": "restaurant",
+    "emoji": "📋"
+  },
+  {
+    "sentence": "비빔밥 하나 주세요",
+    "meaning": {
+      "ko": "비빔밥 하나 주세요",
+      "ja": "ビビンバ一つください",
+      "en": "One bibimbap, please"
+    },
+    "category": "restaurant",
+    "emoji": "🍚"
+  },
+  {
+    "sentence": "맵지 않게 해 주세요",
+    "meaning": {
+      "ko": "맵지 않게 해 주세요",
+      "ja": "辛くしないでください",
+      "en": "Not spicy, please"
+    },
+    "category": "restaurant",
+    "emoji": "🌶️"
+  },
+  {
+    "sentence": "물 좀 주세요",
+    "meaning": {
+      "ko": "물 좀 주세요",
+      "ja": "お水ください",
+      "en": "Water, please"
+    },
+    "category": "restaurant",
+    "emoji": "💧"
+  },
+  {
+    "sentence": "맛있어요",
+    "meaning": {
+      "ko": "맛있어요",
+      "ja": "おいしいです",
+      "en": "It's delicious"
+    },
+    "category": "restaurant",
+    "emoji": "😋"
+  },
+  {
+    "sentence": "잘 먹겠습니다",
+    "meaning": {
+      "ko": "잘 먹겠습니다",
+      "ja": "いただきます",
+      "en": "I will eat well (before eating)"
+    },
+    "category": "restaurant",
+    "emoji": "🙏"
+  },
+  {
+    "sentence": "잘 먹었습니다",
+    "meaning": {
+      "ko": "잘 먹었습니다",
+      "ja": "ごちそうさまでした",
+      "en": "I ate well (after eating)"
+    },
+    "category": "restaurant",
+    "emoji": "😊"
+  },
+  {
+    "sentence": "배가 고파요",
+    "meaning": {
+      "ko": "배가 고파요",
+      "ja": "お腹が空きました",
+      "en": "I'm hungry"
+    },
+    "category": "feelings",
+    "emoji": "🍽️"
+  },
+  {
+    "sentence": "배가 불러요",
+    "meaning": {
+      "ko": "배가 불러요",
+      "ja": "お腹いっぱいです",
+      "en": "I'm full"
+    },
+    "category": "feelings",
+    "emoji": "🤰"
+  },
+  {
+    "sentence": "피곤해요",
+    "meaning": {
+      "ko": "피곤해요",
+      "ja": "疲れました",
+      "en": "I'm tired"
+    },
+    "category": "feelings",
+    "emoji": "😴"
+  },
+  {
+    "sentence": "기분이 좋아요",
+    "meaning": {
+      "ko": "기분이 좋아요",
+      "ja": "気分がいいです",
+      "en": "I feel good"
+    },
+    "category": "feelings",
+    "emoji": "😊"
+  },
+  {
+    "sentence": "괜찮아요",
+    "meaning": {
+      "ko": "괜찮아요",
+      "ja": "大丈夫です",
+      "en": "It's okay"
+    },
+    "category": "feelings",
+    "emoji": "👌"
+  },
+  {
+    "sentence": "도와주세요",
+    "meaning": {
+      "ko": "도와주세요",
+      "ja": "助けてください",
+      "en": "Please help me"
+    },
+    "category": "emergency",
+    "emoji": "🆘"
+  },
+  {
+    "sentence": "천천히 말해 주세요",
+    "meaning": {
+      "ko": "천천히 말해 주세요",
+      "ja": "ゆっくり話してください",
+      "en": "Please speak slowly"
+    },
+    "category": "communication",
+    "emoji": "🗣️"
+  },
+  {
+    "sentence": "다시 한번 말해 주세요",
+    "meaning": {
+      "ko": "다시 한번 말해 주세요",
+      "ja": "もう一度言ってください",
+      "en": "Please say it again"
+    },
+    "category": "communication",
+    "emoji": "🔄"
+  },
+  {
+    "sentence": "한국어를 배워요",
+    "meaning": {
+      "ko": "한국어를 배워요",
+      "ja": "韓国語を学んでいます",
+      "en": "I'm learning Korean"
+    },
+    "category": "learning",
+    "emoji": "📚"
+  },
+  {
+    "sentence": "조금 할 수 있어요",
+    "meaning": {
+      "ko": "조금 할 수 있어요",
+      "ja": "少しできます",
+      "en": "I can do it a little"
+    },
+    "category": "learning",
+    "emoji": "🤏"
+  },
+  {
+    "sentence": "몰라요",
+    "meaning": {
+      "ko": "몰라요",
+      "ja": "分かりません",
+      "en": "I don't know"
+    },
+    "category": "communication",
+    "emoji": "🤷"
+  },
+  {
+    "sentence": "알겠어요",
+    "meaning": {
+      "ko": "알겠어요",
+      "ja": "分かりました",
+      "en": "I understand"
+    },
+    "category": "communication",
+    "emoji": "💡"
+  },
+  {
+    "sentence": "날씨가 좋아요",
+    "meaning": {
+      "ko": "날씨가 좋아요",
+      "ja": "天気がいいです",
+      "en": "The weather is nice"
+    },
+    "category": "weather",
+    "emoji": "☀️"
+  },
+  {
+    "sentence": "비가 와요",
+    "meaning": {
+      "ko": "비가 와요",
+      "ja": "雨が降っています",
+      "en": "It's raining"
+    },
+    "category": "weather",
+    "emoji": "🌧️"
+  },
+  {
+    "sentence": "추워요",
+    "meaning": {
+      "ko": "추워요",
+      "ja": "寒いです",
+      "en": "It's cold"
+    },
+    "category": "weather",
+    "emoji": "🥶"
+  },
+  {
+    "sentence": "더워요",
+    "meaning": {
+      "ko": "더워요",
+      "ja": "暑いです",
+      "en": "It's hot"
+    },
+    "category": "weather",
+    "emoji": "🥵"
+  },
+  {
+    "sentence": "지금 몇 시예요",
+    "meaning": {
+      "ko": "지금 몇 시예요",
+      "ja": "今何時ですか",
+      "en": "What time is it now?"
+    },
+    "category": "time",
+    "emoji": "⏰"
+  },
+  {
+    "sentence": "내일 만나요",
+    "meaning": {
+      "ko": "내일 만나요",
+      "ja": "明日会いましょう",
+      "en": "See you tomorrow"
+    },
+    "category": "time",
+    "emoji": "📅"
+  },
+  {
+    "sentence": "빨리 와요",
+    "meaning": {
+      "ko": "빨리 와요",
+      "ja": "早く来てください",
+      "en": "Come quickly"
+    },
+    "category": "requests",
+    "emoji": "⏰"
+  },
+  {
+    "sentence": "기다려 주세요",
+    "meaning": {
+      "ko": "기다려 주세요",
+      "ja": "待ってください",
+      "en": "Please wait"
+    },
+    "category": "requests",
+    "emoji": "⏳"
+  },
+  {
+    "sentence": "처음 뵙겠습니다",
+    "meaning": {
+      "ko": "처음 뵙겠습니다",
+      "ja": "初めてお目にかかります",
+      "en": "First time to meet you"
+    },
+    "category": "greetings",
+    "emoji": "🤝"
+  },
+  {
+    "sentence": "괜찮으세요",
+    "meaning": {
+      "ko": "괜찮으세요",
+      "ja": "大丈夫ですか",
+      "en": "Are you okay?"
+    },
+    "category": "greetings",
+    "emoji": "💬"
+  },
+  {
+    "sentence": "날씨가 춥네요",
+    "meaning": {
+      "ko": "날씨가 춥네요",
+      "ja": "天気が寒いですね",
+      "en": "The weather is cold"
+    },
+    "category": "greetings",
+    "emoji": "❄️"
+  },
+  {
+    "sentence": "오늘도 고생이 많으셨어요",
+    "meaning": {
+      "ko": "오늘도 고생이 많으셨어요",
+      "ja": "今日も大変でしたね",
+      "en": "You worked hard today"
+    },
+    "category": "greetings",
+    "emoji": "😊"
+  },
+  {
+    "sentence": "미안해요",
+    "meaning": {
+      "ko": "미안해요",
+      "ja": "ごめんなさい",
+      "en": "I'm sorry"
+    },
+    "category": "greetings",
+    "emoji": "🙏"
+  },
+  {
+    "sentence": "정말 감사합니다",
+    "meaning": {
+      "ko": "정말 감사합니다",
+      "ja": "本当にありがとうございます",
+      "en": "Thank you very much"
+    },
+    "category": "greetings",
+    "emoji": "🙏"
+  },
+  {
+    "sentence": "괜찮습니다",
+    "meaning": {
+      "ko": "괜찮습니다",
+      "ja": "大丈夫です",
+      "en": "It's fine"
+    },
+    "category": "greetings",
+    "emoji": "👍"
+  },
+  {
+    "sentence": "수고했어요",
+    "meaning": {
+      "ko": "수고했어요",
+      "ja": "ご苦労様です",
+      "en": "You worked hard"
+    },
+    "category": "greetings",
+    "emoji": "💪"
+  },
+  {
+    "sentence": "배우고 싶어요",
+    "meaning": {
+      "ko": "배우고 싶어요",
+      "ja": "学びたいです",
+      "en": "I want to learn"
+    },
+    "category": "greetings",
+    "emoji": "📚"
+  },
+  {
+    "sentence": "즐거웠어요",
+    "meaning": {
+      "ko": "즐거웠어요",
+      "ja": "楽しかったです",
+      "en": "It was fun"
+    },
+    "category": "greetings",
+    "emoji": "😄"
+  },
+  {
+    "sentence": "얼마나 드릴까요",
+    "meaning": {
+      "ko": "얼마나 드릴까요",
+      "ja": "どのくらい差し上げましょうか",
+      "en": "How much should I give you?"
+    },
+    "category": "shopping",
+    "emoji": "💵"
+  },
+  {
+    "sentence": "두 개 주세요",
+    "meaning": {
+      "ko": "두 개 주세요",
+      "ja": "2つください",
+      "en": "Please give me two"
+    },
+    "category": "shopping",
+    "emoji": "2️⃣"
+  },
+  {
+    "sentence": "이거 있어요",
+    "meaning": {
+      "ko": "이거 있어요",
+      "ja": "これありますか",
+      "en": "Do you have this?"
+    },
+    "category": "shopping",
+    "emoji": "🛍️"
+  },
+  {
+    "sentence": "다른 색 있어요",
+    "meaning": {
+      "ko": "다른 색 있어요",
+      "ja": "別の色ありますか",
+      "en": "Do you have another color?"
+    },
+    "category": "shopping",
+    "emoji": "🎨"
+  },
+  {
+    "sentence": "반값 안 돼요",
+    "meaning": {
+      "ko": "반값 안 돼요",
+      "ja": "半額はできません",
+      "en": "I can't do half price"
+    },
+    "category": "shopping",
+    "emoji": "❌"
+  },
+  {
+    "sentence": "포장해 주세요",
+    "meaning": {
+      "ko": "포장해 주세요",
+      "ja": "包装してください",
+      "en": "Please wrap it"
+    },
+    "category": "shopping",
+    "emoji": "📦"
+  },
+  {
+    "sentence": "환불 가능해요",
+    "meaning": {
+      "ko": "환불 가능해요",
+      "ja": "返金可能です",
+      "en": "Refund is possible"
+    },
+    "category": "shopping",
+    "emoji": "💳"
+  },
+  {
+    "sentence": "할인해 주세요",
+    "meaning": {
+      "ko": "할인해 주세요",
+      "ja": "割引してください",
+      "en": "Please give me a discount"
+    },
+    "category": "shopping",
+    "emoji": "🏷️"
+  },
+  {
+    "sentence": "시간이 있어요",
+    "meaning": {
+      "ko": "시간이 있어요",
+      "ja": "時間があります",
+      "en": "I have time"
+    },
+    "category": "shopping",
+    "emoji": "⏰"
+  },
+  {
+    "sentence": "이걸로 할게요",
+    "meaning": {
+      "ko": "이걸로 할게요",
+      "ja": "これにします",
+      "en": "I'll take this"
+    },
+    "category": "shopping",
+    "emoji": "✅"
+  },
+  {
+    "sentence": "테이블 하나 부탁드립니다",
+    "meaning": {
+      "ko": "테이블 하나 부탁드립니다",
+      "ja": "テーブルを1つお願いします",
+      "en": "A table for one, please"
+    },
+    "category": "restaurant",
+    "emoji": "🍽️"
+  },
+  {
+    "sentence": "추천 메뉴가 뭐예요",
+    "meaning": {
+      "ko": "추천 메뉴가 뭐예요",
+      "ja": "おすすめメニューは何ですか",
+      "en": "What's your recommendation?"
+    },
+    "category": "restaurant",
+    "emoji": "⭐"
+  },
+  {
+    "sentence": "소금 좀 주세요",
+    "meaning": {
+      "ko": "소금 좀 주세요",
+      "ja": "塩をください",
+      "en": "Salt, please"
+    },
+    "category": "restaurant",
+    "emoji": "🧂"
+  },
+  {
+    "sentence": "찬바람 주세요",
+    "meaning": {
+      "ko": "찬바람 주세요",
+      "ja": "冷たい空気をください",
+      "en": "Can we have some air conditioning?"
+    },
+    "category": "restaurant",
+    "emoji": "❄️"
+  },
+  {
+    "sentence": "덥지 않아요",
+    "meaning": {
+      "ko": "덥지 않아요",
+      "ja": "暑くありません",
+      "en": "It's not hot"
+    },
+    "category": "restaurant",
+    "emoji": "😌"
+  },
+  {
+    "sentence": "알레르기 있어요",
+    "meaning": {
+      "ko": "알레르기 있어요",
+      "ja": "アレルギーがあります",
+      "en": "I have an allergy"
+    },
+    "category": "restaurant",
+    "emoji": "⚠️"
+  },
+  {
+    "sentence": "양념 빼주세요",
+    "meaning": {
+      "ko": "양념 빼주세요",
+      "ja": "味付けを抜いてください",
+      "en": "No seasoning, please"
+    },
+    "category": "restaurant",
+    "emoji": "🙅"
+  },
+  {
+    "sentence": "밥 더 주세요",
+    "meaning": {
+      "ko": "밥 더 주세요",
+      "ja": "ご飯をもっとください",
+      "en": "More rice, please"
+    },
+    "category": "restaurant",
+    "emoji": "🍚"
+  },
+  {
+    "sentence": "숟가락 주세요",
+    "meaning": {
+      "ko": "숟가락 주세요",
+      "ja": "スプーンください",
+      "en": "Spoon, please"
+    },
+    "category": "restaurant",
+    "emoji": "🥄"
+  },
+  {
+    "sentence": "여기 앉아도 돼요",
+    "meaning": {
+      "ko": "여기 앉아도 돼요",
+      "ja": "ここに座ってもいいですか",
+      "en": "Can I sit here?"
+    },
+    "category": "restaurant",
+    "emoji": "🪑"
+  },
+  {
+    "sentence": "지하철 어디 가요",
+    "meaning": {
+      "ko": "지하철 어디 가요",
+      "ja": "地下鉄はどこに行きますか",
+      "en": "Where does the subway go?"
+    },
+    "category": "directions",
+    "emoji": "🚇"
+  },
+  {
+    "sentence": "버스 정류장이 어디예요",
+    "meaning": {
+      "ko": "버스 정류장이 어디예요",
+      "ja": "バス停はどこですか",
+      "en": "Where is the bus stop?"
+    },
+    "category": "directions",
+    "emoji": "🚌"
+  },
+  {
+    "sentence": "여기서 내려요",
+    "meaning": {
+      "ko": "여기서 내려요",
+      "ja": "ここで下ります",
+      "en": "I get off here"
+    },
+    "category": "directions",
+    "emoji": "🚪"
+  },
+  {
+    "sentence": "다음 정거장이 어디예요",
+    "meaning": {
+      "ko": "다음 정거장이 어디예요",
+      "ja": "次の駅はどこですか",
+      "en": "What is the next station?"
+    },
+    "category": "directions",
+    "emoji": "🚉"
+  },
+  {
+    "sentence": "여기 맞아요",
+    "meaning": {
+      "ko": "여기 맞아요",
+      "ja": "ここが正解です",
+      "en": "This is correct"
+    },
+    "category": "directions",
+    "emoji": "✅"
+  },
+  {
+    "sentence": "호텔로 가 주세요",
+    "meaning": {
+      "ko": "호텔로 가 주세요",
+      "ja": "ホテルに行ってください",
+      "en": "Please go to the hotel"
+    },
+    "category": "directions",
+    "emoji": "🏨"
+  },
+  {
+    "sentence": "요금이 얼마예요",
+    "meaning": {
+      "ko": "요금이 얼마예요",
+      "ja": "料金はいくらですか",
+      "en": "How much is the fare?"
+    },
+    "category": "directions",
+    "emoji": "💰"
+  },
+  {
+    "sentence": "이 길이 맞아요",
+    "meaning": {
+      "ko": "이 길이 맞아요",
+      "ja": "この道が正解です",
+      "en": "This way is correct"
+    },
+    "category": "directions",
+    "emoji": "🛣️"
+  },
+  {
+    "sentence": "표 한 장 주세요",
+    "meaning": {
+      "ko": "표 한 장 주세요",
+      "ja": "チケット1枚ください",
+      "en": "One ticket, please"
+    },
+    "category": "directions",
+    "emoji": "🎫"
+  },
+  {
+    "sentence": "여기 얼마예요",
+    "meaning": {
+      "ko": "여기 얼마예요",
+      "ja": "ここはいくらですか",
+      "en": "How much is this place?"
+    },
+    "category": "directions",
+    "emoji": "❓"
+  },
+  {
+    "sentence": "정말 행복해요",
+    "meaning": {
+      "ko": "정말 행복해요",
+      "ja": "本当に幸せです",
+      "en": "I'm really happy"
+    },
+    "category": "feelings",
+    "emoji": "😄"
+  },
+  {
+    "sentence": "정말 슬파요",
+    "meaning": {
+      "ko": "정말 슬파요",
+      "ja": "本当に悲しいです",
+      "en": "I'm really sad"
+    },
+    "category": "feelings",
+    "emoji": "😢"
+  },
+  {
+    "sentence": "화났어요",
+    "meaning": {
+      "ko": "화났어요",
+      "ja": "怒りました",
+      "en": "I'm angry"
+    },
+    "category": "feelings",
+    "emoji": "😠"
+  },
+  {
+    "sentence": "두려워요",
+    "meaning": {
+      "ko": "두려워요",
+      "ja": "怖いです",
+      "en": "I'm scared"
+    },
+    "category": "feelings",
+    "emoji": "😨"
+  },
+  {
+    "sentence": "놀랐어요",
+    "meaning": {
+      "ko": "놀랐어요",
+      "ja": "驚きました",
+      "en": "I'm surprised"
+    },
+    "category": "feelings",
+    "emoji": "😲"
+  },
+  {
+    "sentence": "부끄러워요",
+    "meaning": {
+      "ko": "부끄러워요",
+      "ja": "恥ずかしいです",
+      "en": "I'm embarrassed"
+    },
+    "category": "feelings",
+    "emoji": "😳"
+  },
+  {
+    "sentence": "지루해요",
+    "meaning": {
+      "ko": "지루해요",
+      "ja": "つまらないです",
+      "en": "It's boring"
+    },
+    "category": "feelings",
+    "emoji": "😑"
+  },
+  {
+    "sentence": "흥미로워요",
+    "meaning": {
+      "ko": "흥미로워요",
+      "ja": "興味深いです",
+      "en": "It's interesting"
+    },
+    "category": "feelings",
+    "emoji": "🤩"
+  },
+  {
+    "sentence": "걱정돼요",
+    "meaning": {
+      "ko": "걱정돼요",
+      "ja": "心配です",
+      "en": "I'm worried"
+    },
+    "category": "feelings",
+    "emoji": "😟"
+  },
+  {
+    "sentence": "자신감 있어요",
+    "meaning": {
+      "ko": "자신감 있어요",
+      "ja": "自信があります",
+      "en": "I'm confident"
+    },
+    "category": "feelings",
+    "emoji": "💪"
+  },
+  {
+    "sentence": "정말 죄송해요",
+    "meaning": {
+      "ko": "정말 죄송해요",
+      "ja": "本当に申し訳ございません",
+      "en": "I'm really sorry"
+    },
+    "category": "communication",
+    "emoji": "🙇"
+  },
+  {
+    "sentence": "무슨 말이에요",
+    "meaning": {
+      "ko": "무슨 말이에요",
+      "ja": "何と言いますか",
+      "en": "What do you mean?"
+    },
+    "category": "communication",
+    "emoji": "❓"
+  },
+  {
+    "sentence": "좀 더 크게 말해 주세요",
+    "meaning": {
+      "ko": "좀 더 크게 말해 주세요",
+      "ja": "もっと大きく話してください",
+      "en": "Please speak louder"
+    },
+    "category": "communication",
+    "emoji": "🔊"
+  },
+  {
+    "sentence": "이게 뭐라고 말해요",
+    "meaning": {
+      "ko": "이게 뭐라고 말해요",
+      "ja": "これは何と言いますか",
+      "en": "What do you call this?"
+    },
+    "category": "communication",
+    "emoji": "🤔"
+  },
+  {
+    "sentence": "맞아요",
+    "meaning": {
+      "ko": "맞아요",
+      "ja": "そうです",
+      "en": "That's right"
+    },
+    "category": "communication",
+    "emoji": "✅"
+  },
+  {
+    "sentence": "틀렸어요",
+    "meaning": {
+      "ko": "틀렸어요",
+      "ja": "違います",
+      "en": "That's wrong"
+    },
+    "category": "communication",
+    "emoji": "❌"
+  },
+  {
+    "sentence": "그렇군요",
+    "meaning": {
+      "ko": "그렇군요",
+      "ja": "そうですね",
+      "en": "I see"
+    },
+    "category": "communication",
+    "emoji": "💭"
+  },
+  {
+    "sentence": "네 맞습니다",
+    "meaning": {
+      "ko": "네 맞습니다",
+      "ja": "はい、そうです",
+      "en": "Yes, that's correct"
+    },
+    "category": "communication",
+    "emoji": "👍"
+  },
+  {
+    "sentence": "아니에요",
+    "meaning": {
+      "ko": "아니에요",
+      "ja": "いいえ",
+      "en": "No"
+    },
+    "category": "communication",
+    "emoji": "🙅"
+  },
+  {
+    "sentence": "한국말을 배워요",
+    "meaning": {
+      "ko": "한국말을 배워요",
+      "ja": "韓国語を習っています",
+      "en": "I'm learning Korean"
+    },
+    "category": "learning",
+    "emoji": "📖"
+  },
+  {
+    "sentence": "발음을 배우고 있어요",
+    "meaning": {
+      "ko": "발음을 배우고 있어요",
+      "ja": "発音を学んでいます",
+      "en": "I'm learning pronunciation"
+    },
+    "category": "learning",
+    "emoji": "🗣️"
+  },
+  {
+    "sentence": "문법이 어려워요",
+    "meaning": {
+      "ko": "문법이 어려워요",
+      "ja": "文法が難しいです",
+      "en": "Grammar is difficult"
+    },
+    "category": "learning",
+    "emoji": "📚"
+  },
+  {
+    "sentence": "글을 읽을 수 있어요",
+    "meaning": {
+      "ko": "글을 읽을 수 있어요",
+      "ja": "文字が読めます",
+      "en": "I can read"
+    },
+    "category": "learning",
+    "emoji": "📝"
+  },
+  {
+    "sentence": "더 공부하고 싶어요",
+    "meaning": {
+      "ko": "더 공부하고 싶어요",
+      "ja": "もっと勉強したいです",
+      "en": "I want to study more"
+    },
+    "category": "learning",
+    "emoji": "🎓"
+  },
+  {
+    "sentence": "교과서 있어요",
+    "meaning": {
+      "ko": "교과서 있어요",
+      "ja": "教科書があります",
+      "en": "I have a textbook"
+    },
+    "category": "learning",
+    "emoji": "📗"
+  },
+  {
+    "sentence": "숙제가 많아요",
+    "meaning": {
+      "ko": "숙제가 많아요",
+      "ja": "宿題がたくさんあります",
+      "en": "I have a lot of homework"
+    },
+    "category": "learning",
+    "emoji": "✏️"
+  },
+  {
+    "sentence": "시험이 어려워요",
+    "meaning": {
+      "ko": "시험이 어려워요",
+      "ja": "試験が難しいです",
+      "en": "The exam is difficult"
+    },
+    "category": "learning",
+    "emoji": "📝"
+  },
+  {
+    "sentence": "좋은 성적을 받았어요",
+    "meaning": {
+      "ko": "좋은 성적을 받았어요",
+      "ja": "良い成績を取りました",
+      "en": "I got a good grade"
+    },
+    "category": "learning",
+    "emoji": "🌟"
+  },
+  {
+    "sentence": "도움이 돼요",
+    "meaning": {
+      "ko": "도움이 돼요",
+      "ja": "役に立ちます",
+      "en": "It's helpful"
+    },
+    "category": "learning",
+    "emoji": "💡"
+  },
+  {
+    "sentence": "무서운 영화예요",
+    "meaning": {
+      "ko": "무서운 영화예요",
+      "ja": "怖い映画です",
+      "en": "It's a scary movie"
+    },
+    "category": "entertainment",
+    "emoji": "🎬"
+  },
+  {
+    "sentence": "뮤지컬을 좋아해요",
+    "meaning": {
+      "ko": "뮤지컬을 좋아해요",
+      "ja": "ミュージカルが好きです",
+      "en": "I like musicals"
+    },
+    "category": "entertainment",
+    "emoji": "🎭"
+  },
+  {
+    "sentence": "드라마를 봐요",
+    "meaning": {
+      "ko": "드라마를 봐요",
+      "ja": "ドラマを見ます",
+      "en": "I watch dramas"
+    },
+    "category": "entertainment",
+    "emoji": "📺"
+  },
+  {
+    "sentence": "음악을 들어요",
+    "meaning": {
+      "ko": "음악을 들어요",
+      "ja": "音楽を聞きます",
+      "en": "I listen to music"
+    },
+    "category": "entertainment",
+    "emoji": "🎵"
+  },
+  {
+    "sentence": "책을 읽어요",
+    "meaning": {
+      "ko": "책을 읽어요",
+      "ja": "本を読みます",
+      "en": "I read books"
+    },
+    "category": "entertainment",
+    "emoji": "📚"
+  },
+  {
+    "sentence": "영화표 있어요",
+    "meaning": {
+      "ko": "영화표 있어요",
+      "ja": "映画のチケットがあります",
+      "en": "I have a movie ticket"
+    },
+    "category": "entertainment",
+    "emoji": "🎫"
+  },
+  {
+    "sentence": "콘서트에 가요",
+    "meaning": {
+      "ko": "콘서트에 가요",
+      "ja": "コンサートに行きます",
+      "en": "I go to concerts"
+    },
+    "category": "entertainment",
+    "emoji": "🎤"
+  },
+  {
+    "sentence": "연기를 해요",
+    "meaning": {
+      "ko": "연기를 해요",
+      "ja": "演技をします",
+      "en": "I act"
+    },
+    "category": "entertainment",
+    "emoji": "🎬"
+  },
+  {
+    "sentence": "노래를 불러요",
+    "meaning": {
+      "ko": "노래를 불러요",
+      "ja": "歌を歌います",
+      "en": "I sing"
+    },
+    "category": "entertainment",
+    "emoji": "🎤"
+  },
+  {
+    "sentence": "춤을 춰요",
+    "meaning": {
+      "ko": "춤을 춰요",
+      "ja": "ダンスをします",
+      "en": "I dance"
+    },
+    "category": "entertainment",
+    "emoji": "💃"
+  },
+  {
+    "sentence": "스포츠를 좋아해요",
+    "meaning": {
+      "ko": "스포츠를 좋아해요",
+      "ja": "スポーツが好きです",
+      "en": "I like sports"
+    },
+    "category": "activities",
+    "emoji": "⚽"
+  },
+  {
+    "sentence": "축구를 해요",
+    "meaning": {
+      "ko": "축구를 해요",
+      "ja": "サッカーをします",
+      "en": "I play soccer"
+    },
+    "category": "activities",
+    "emoji": "⚽"
+  },
+  {
+    "sentence": "테니스를 쳐요",
+    "meaning": {
+      "ko": "테니스를 쳐요",
+      "ja": "テニスをします",
+      "en": "I play tennis"
+    },
+    "category": "activities",
+    "emoji": "🎾"
+  },
+  {
+    "sentence": "야구를 봐요",
+    "meaning": {
+      "ko": "야구를 봐요",
+      "ja": "野球を見ます",
+      "en": "I watch baseball"
+    },
+    "category": "activities",
+    "emoji": "⚾"
+  },
+  {
+    "sentence": "수영을 배워요",
+    "meaning": {
+      "ko": "수영을 배워요",
+      "ja": "水泳を習っています",
+      "en": "I'm learning swimming"
+    },
+    "category": "activities",
+    "emoji": "🏊"
+  },
+  {
+    "sentence": "등산을 가요",
+    "meaning": {
+      "ko": "등산을 가요",
+      "ja": "登山に行きます",
+      "en": "I go hiking"
+    },
+    "category": "activities",
+    "emoji": "⛰️"
+  },
+  {
+    "sentence": "자전거를 타요",
+    "meaning": {
+      "ko": "자전거를 타요",
+      "ja": "自転車に乗ります",
+      "en": "I ride a bike"
+    },
+    "category": "activities",
+    "emoji": "🚲"
+  },
+  {
+    "sentence": "요가를 해요",
+    "meaning": {
+      "ko": "요가를 해요",
+      "ja": "ヨガをします",
+      "en": "I do yoga"
+    },
+    "category": "activities",
+    "emoji": "🧘"
+  },
+  {
+    "sentence": "운동을 좋아해요",
+    "meaning": {
+      "ko": "운동을 좋아해요",
+      "ja": "運動が好きです",
+      "en": "I like exercise"
+    },
+    "category": "activities",
+    "emoji": "💪"
+  },
+  {
+    "sentence": "혼자 와요",
+    "meaning": {
+      "ko": "혼자 와요",
+      "ja": "一人で来ました",
+      "en": "I came alone"
+    },
+    "category": "activities",
+    "emoji": "👤"
+  },
+  {
+    "sentence": "일찍 일어나요",
+    "meaning": {
+      "ko": "일찍 일어나요",
+      "ja": "早く起きます",
+      "en": "I wake up early"
+    },
+    "category": "daily_life",
+    "emoji": "🌅"
+  },
+  {
+    "sentence": "아침을 먹어요",
+    "meaning": {
+      "ko": "아침을 먹어요",
+      "ja": "朝食を食べます",
+      "en": "I eat breakfast"
+    },
+    "category": "daily_life",
+    "emoji": "🥐"
+  },
+  {
+    "sentence": "샤워를 해요",
+    "meaning": {
+      "ko": "샤워를 해요",
+      "ja": "シャワーを浴びます",
+      "en": "I take a shower"
+    },
+    "category": "daily_life",
+    "emoji": "🚿"
+  },
+  {
+    "sentence": "옷을 입어요",
+    "meaning": {
+      "ko": "옷을 입어요",
+      "ja": "衣服を着ます",
+      "en": "I get dressed"
+    },
+    "category": "daily_life",
+    "emoji": "👔"
+  },
+  {
+    "sentence": "회사에 가요",
+    "meaning": {
+      "ko": "회사에 가요",
+      "ja": "会社に行きます",
+      "en": "I go to work"
+    },
+    "category": "daily_life",
+    "emoji": "🏢"
+  },
+  {
+    "sentence": "점심을 먹어요",
+    "meaning": {
+      "ko": "점심을 먹어요",
+      "ja": "昼食を食べます",
+      "en": "I eat lunch"
+    },
+    "category": "daily_life",
+    "emoji": "🍱"
+  },
+  {
+    "sentence": "저녁을 먹어요",
+    "meaning": {
+      "ko": "저녁을 먹어요",
+      "ja": "夕食を食べます",
+      "en": "I eat dinner"
+    },
+    "category": "daily_life",
+    "emoji": "🍽️"
+  },
+  {
+    "sentence": "집에 와요",
+    "meaning": {
+      "ko": "집에 와요",
+      "ja": "家に帰ります",
+      "en": "I come home"
+    },
+    "category": "daily_life",
+    "emoji": "🏠"
+  },
+  {
+    "sentence": "TV를 봐요",
+    "meaning": {
+      "ko": "TV를 봐요",
+      "ja": "テレビを見ます",
+      "en": "I watch TV"
+    },
+    "category": "daily_life",
+    "emoji": "📺"
+  },
+  {
+    "sentence": "늦게 자요",
+    "meaning": {
+      "ko": "늦게 자요",
+      "ja": "遅く寝ます",
+      "en": "I sleep late"
+    },
+    "category": "daily_life",
+    "emoji": "😴"
+  },
+  {
+    "sentence": "엄마입니다",
+    "meaning": {
+      "ko": "엄마입니다",
+      "ja": "お母さんです",
+      "en": "I'm a mother"
+    },
+    "category": "family",
+    "emoji": "👩"
+  },
+  {
+    "sentence": "아빠예요",
+    "meaning": {
+      "ko": "아빠예요",
+      "ja": "お父さんです",
+      "en": "I'm a father"
+    },
+    "category": "family",
+    "emoji": "👨"
+  },
+  {
+    "sentence": "형이 있어요",
+    "meaning": {
+      "ko": "형이 있어요",
+      "ja": "兄がいます",
+      "en": "I have an older brother"
+    },
+    "category": "family",
+    "emoji": "👦"
+  },
+  {
+    "sentence": "동생이 있어요",
+    "meaning": {
+      "ko": "동생이 있어요",
+      "ja": "弟がいます",
+      "en": "I have a younger brother"
+    },
+    "category": "family",
+    "emoji": "👶"
+  },
+  {
+    "sentence": "할머니를 만났어요",
+    "meaning": {
+      "ko": "할머니를 만났어요",
+      "ja": "おばあさんに会いました",
+      "en": "I met my grandmother"
+    },
+    "category": "family",
+    "emoji": "👵"
+  },
+  {
+    "sentence": "할아버지를 봐요",
+    "meaning": {
+      "ko": "할아버지를 봐요",
+      "ja": "おじいさんを見ます",
+      "en": "I see my grandfather"
+    },
+    "category": "family",
+    "emoji": "👴"
+  },
+  {
+    "sentence": "아내입니다",
+    "meaning": {
+      "ko": "아내입니다",
+      "ja": "妻です",
+      "en": "I'm a wife"
+    },
+    "category": "family",
+    "emoji": "👩"
+  },
+  {
+    "sentence": "남편입니다",
+    "meaning": {
+      "ko": "남편입니다",
+      "ja": "夫です",
+      "en": "I'm a husband"
+    },
+    "category": "family",
+    "emoji": "👨"
+  },
+  {
+    "sentence": "친구가 있어요",
+    "meaning": {
+      "ko": "친구가 있어요",
+      "ja": "友達がいます",
+      "en": "I have a friend"
+    },
+    "category": "family",
+    "emoji": "👫"
+  },
+  {
+    "sentence": "가족과 살아요",
+    "meaning": {
+      "ko": "가족과 살아요",
+      "ja": "家族と住んでいます",
+      "en": "I live with my family"
+    },
+    "category": "family",
+    "emoji": "👨‍👩‍👧‍👦"
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "character": "가",
+    "pronunciation": "가",
+    "romanization": "ga",
+    "meaning": "「か」の音"
+  },
+  {
+    "character": "나",
+    "pronunciation": "나",
+    "romanization": "na",
+    "meaning": "「な」の音"
+  },
+  {
+    "character": "다",
+    "pronunciation": "다",
+    "romanization": "da",
+    "meaning": "「た」の音"
+  },
+  {
+    "character": "라",
+    "pronunciation": "라",
+    "romanization": "ra",
+    "meaning": "「ら」の音"
+  },
+  {
+    "character": "마",
+    "pronunciation": "마",
+    "romanization": "ma",
+    "meaning": "「ま」の音"
+  },
+  {
+    "character": "바",
+    "pronunciation": "바",
+    "romanization": "ba",
+    "meaning": "「ば」の音"
+  },
+  {
+    "character": "사",
+    "pronunciation": "사",
+    "romanization": "sa",
+    "meaning": "「さ」の音"
+  },
+  {
+    "character": "자",
+    "pronunciation": "자",
+    "romanization": "ja",
+    "meaning": "「じゃ」の音"
+  },
+  {
+    "character": "차",
+    "pronunciation": "차",
+    "romanization": "cha",
+    "meaning": "「ちゃ」の音"
+  },
+  {
+    "character": "카",
+    "pronunciation": "카",
+    "romanization": "ka",
+    "meaning": "「か」の音"
+  },
+  {
+    "character": "타",
+    "pronunciation": "타",
+    "romanization": "ta",
+    "meaning": "「た」の音"
+  },
+  {
+    "character": "파",
+    "pronunciation": "파",
+    "romanization": "pa",
+    "meaning": "「ぱ」の音"
+  },
+  {
+    "character": "하",
+    "pronunciation": "하",
+    "romanization": "ha",
+    "meaning": "「は」の音"
+  },
+  {
+    "character": "구",
+    "pronunciation": "구",
+    "romanization": "gu",
+    "meaning": "「ぐ」の音"
+  },
+  {
+    "character": "누",
+    "pronunciation": "누",
+    "romanization": "nu",
+    "meaning": "「ぬ」の音"
+  },
+  {
+    "character": "두",
+    "pronunciation": "두",
+    "romanization": "du",
+    "meaning": "「どぅ」の音"
+  },
+  {
+    "character": "루",
+    "pronunciation": "루",
+    "romanization": "ru",
+    "meaning": "「る」の音"
+  },
+  {
+    "character": "무",
+    "pronunciation": "무",
+    "romanization": "mu",
+    "meaning": "「む」の音"
+  },
+  {
+    "character": "부",
+    "pronunciation": "부",
+    "romanization": "bu",
+    "meaning": "「ぶ」の音"
+  },
+  {
+    "character": "수",
+    "pronunciation": "수",
+    "romanization": "su",
+    "meaning": "「す」の音"
+  },
+  {
+    "character": "주",
+    "pronunciation": "주",
+    "romanization": "ju",
+    "meaning": "「じゅ」の音"
+  },
+  {
+    "character": "추",
+    "pronunciation": "추",
+    "romanization": "chu",
+    "meaning": "「ちゅ」の音"
+  },
+  {
+    "character": "쿠",
+    "pronunciation": "쿠",
+    "romanization": "ku",
+    "meaning": "「く」の音"
+  },
+  {
+    "character": "투",
+    "pronunciation": "투",
+    "romanization": "tu",
+    "meaning": "「とぅ」の音"
+  },
+  {
+    "character": "푸",
+    "pronunciation": "푸",
+    "romanization": "pu",
+    "meaning": "「ぷ」の音"
+  },
+  {
+    "character": "후",
+    "pronunciation": "후",
+    "romanization": "hu",
+    "meaning": "「ふ」の音"
+  },
+  {
+    "character": "개",
+    "pronunciation": "개",
+    "romanization": "gae",
+    "meaning": "「げ」の音"
+  },
+  {
+    "character": "내",
+    "pronunciation": "내",
+    "romanization": "nae",
+    "meaning": "「ね」の音"
+  },
+  {
+    "character": "대",
+    "pronunciation": "대",
+    "romanization": "dae",
+    "meaning": "「で」の音"
+  },
+  {
+    "character": "배",
+    "pronunciation": "배",
+    "romanization": "bae",
+    "meaning": "「べ」の音"
+  },
+  {
+    "character": "새",
+    "pronunciation": "새",
+    "romanization": "sae",
+    "meaning": "「せ」の音"
+  },
+  {
+    "character": "재",
+    "pronunciation": "재",
+    "romanization": "jae",
+    "meaning": "「じぇ」の音"
+  },
+  {
+    "character": "채",
+    "pronunciation": "채",
+    "romanization": "chae",
+    "meaning": "「ちぇ」の音"
+  },
+  {
+    "character": "태",
+    "pronunciation": "태",
+    "romanization": "tae",
+    "meaning": "「て」の音"
+  },
+  {
+    "character": "해",
+    "pronunciation": "해",
+    "romanization": "hae",
+    "meaning": "「へ」の音"
+  },
+  {
+    "character": "게",
+    "pronunciation": "게",
+    "romanization": "ge",
+    "meaning": "「げ」の音"
+  },
+  {
+    "character": "네",
+    "pronunciation": "네",
+    "romanization": "ne",
+    "meaning": "「ね」の音"
+  },
+  {
+    "character": "데",
+    "pronunciation": "데",
+    "romanization": "de",
+    "meaning": "「で」の音"
+  },
+  {
+    "character": "레",
+    "pronunciation": "레",
+    "romanization": "re",
+    "meaning": "「れ」の音"
+  },
+  {
+    "character": "메",
+    "pronunciation": "메",
+    "romanization": "me",
+    "meaning": "「め」の音"
+  },
+  {
+    "character": "세",
+    "pronunciation": "세",
+    "romanization": "se",
+    "meaning": "「せ」の音"
+  },
+  {
+    "character": "제",
+    "pronunciation": "제",
+    "romanization": "je",
+    "meaning": "「じぇ」の音"
+  },
+  {
+    "character": "케",
+    "pronunciation": "케",
+    "romanization": "ke",
+    "meaning": "「け」の音"
+  },
+  {
+    "character": "테",
+    "pronunciation": "테",
+    "romanization": "te",
+    "meaning": "「て」の音"
+  },
+  {
+    "character": "페",
+    "pronunciation": "페",
+    "romanization": "pe",
+    "meaning": "「ぺ」の音"
+  },
+  {
+    "character": "헤",
+    "pronunciation": "헤",
+    "romanization": "he",
+    "meaning": "「へ」の音"
+  },
+  {
+    "character": "기",
+    "pronunciation": "기",
+    "romanization": "gi",
+    "meaning": "「ぎ」の音"
+  },
+  {
+    "character": "니",
+    "pronunciation": "니",
+    "romanization": "ni",
+    "meaning": "「に」の音"
+  },
+  {
+    "character": "디",
+    "pronunciation": "디",
+    "romanization": "di",
+    "meaning": "「でぃ」の音"
+  },
+  {
+    "character": "리",
+    "pronunciation": "리",
+    "romanization": "ri",
+    "meaning": "「り」の音"
+  },
+  {
+    "character": "미",
+    "pronunciation": "미",
+    "romanization": "mi",
+    "meaning": "「み」の音"
+  },
+  {
+    "character": "비",
+    "pronunciation": "비",
+    "romanization": "bi",
+    "meaning": "「び」の音"
+  },
+  {
+    "character": "시",
+    "pronunciation": "시",
+    "romanization": "si",
+    "meaning": "「し」の音"
+  },
+  {
+    "character": "지",
+    "pronunciation": "지",
+    "romanization": "ji",
+    "meaning": "「じ」の音"
+  },
+  {
+    "character": "치",
+    "pronunciation": "치",
+    "romanization": "chi",
+    "meaning": "「ち」の音"
+  },
+  {
+    "character": "키",
+    "pronunciation": "키",
+    "romanization": "ki",
+    "meaning": "「き」の音"
+  },
+  {
+    "character": "티",
+    "pronunciation": "티",
+    "romanization": "ti",
+    "meaning": "「てぃ」の音"
+  },
+  {
+    "character": "피",
+    "pronunciation": "피",
+    "romanization": "pi",
+    "meaning": "「ぴ」の音"
+  },
+  {
+    "character": "히",
+    "pronunciation": "히",
+    "romanization": "hi",
+    "meaning": "「ひ」の音"
+  },
+  {
+    "character": "고",
+    "pronunciation": "고",
+    "romanization": "go",
+    "meaning": "「ご」の音"
+  },
+  {
+    "character": "노",
+    "pronunciation": "노",
+    "romanization": "no",
+    "meaning": "「の」の音"
+  },
+  {
+    "character": "도",
+    "pronunciation": "도",
+    "romanization": "do",
+    "meaning": "「ど」の音"
+  },
+  {
+    "character": "로",
+    "pronunciation": "로",
+    "romanization": "ro",
+    "meaning": "「ろ」の音"
+  },
+  {
+    "character": "모",
+    "pronunciation": "모",
+    "romanization": "mo",
+    "meaning": "「も」の音"
+  },
+  {
+    "character": "보",
+    "pronunciation": "보",
+    "romanization": "bo",
+    "meaning": "「ぼ」の音"
+  },
+  {
+    "character": "소",
+    "pronunciation": "소",
+    "romanization": "so",
+    "meaning": "「そ」の音"
+  },
+  {
+    "character": "조",
+    "pronunciation": "조",
+    "romanization": "jo",
+    "meaning": "「じょ」の音"
+  },
+  {
+    "character": "초",
+    "pronunciation": "초",
+    "romanization": "cho",
+    "meaning": "「ちょ」の音"
+  },
+  {
+    "character": "코",
+    "pronunciation": "코",
+    "romanization": "ko",
+    "meaning": "「こ」の音"
+  },
+  {
+    "character": "토",
+    "pronunciation": "토",
+    "romanization": "to",
+    "meaning": "「と」の音"
+  },
+  {
+    "character": "포",
+    "pronunciation": "포",
+    "romanization": "po",
+    "meaning": "「ぽ」の音"
+  },
+  {
+    "character": "호",
+    "pronunciation": "호",
+    "romanization": "ho",
+    "meaning": "「ほ」の音"
+  }
+]

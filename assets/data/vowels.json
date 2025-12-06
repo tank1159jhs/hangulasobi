@@ -1,0 +1,128 @@
+[
+  {
+    "character": "ㅏ",
+    "pronunciation": "아",
+    "romanization": "a",
+    "sound": "a"
+  },
+  {
+    "character": "ㅑ",
+    "pronunciation": "야",
+    "romanization": "ya",
+    "sound": "ya"
+  },
+  {
+    "character": "ㅓ",
+    "pronunciation": "어",
+    "romanization": "eo",
+    "sound": "eo"
+  },
+  {
+    "character": "ㅕ",
+    "pronunciation": "여",
+    "romanization": "yeo",
+    "sound": "yeo"
+  },
+  {
+    "character": "ㅗ",
+    "pronunciation": "오",
+    "romanization": "o",
+    "sound": "o"
+  },
+  {
+    "character": "ㅛ",
+    "pronunciation": "요",
+    "romanization": "yo",
+    "sound": "yo"
+  },
+  {
+    "character": "ㅜ",
+    "pronunciation": "우",
+    "romanization": "u",
+    "sound": "u"
+  },
+  {
+    "character": "ㅠ",
+    "pronunciation": "유",
+    "romanization": "yu",
+    "sound": "yu"
+  },
+  {
+    "character": "ㅡ",
+    "pronunciation": "으",
+    "romanization": "eu",
+    "sound": "eu"
+  },
+  {
+    "character": "ㅣ",
+    "pronunciation": "이",
+    "romanization": "i",
+    "sound": "i"
+  },
+  {
+    "character": "ㅐ",
+    "pronunciation": "애",
+    "romanization": "ae",
+    "sound": "ae"
+  },
+  {
+    "character": "ㅒ",
+    "pronunciation": "얘",
+    "romanization": "yae",
+    "sound": "yae"
+  },
+  {
+    "character": "ㅔ",
+    "pronunciation": "에",
+    "romanization": "e",
+    "sound": "e"
+  },
+  {
+    "character": "ㅖ",
+    "pronunciation": "예",
+    "romanization": "ye",
+    "sound": "ye"
+  },
+  {
+    "character": "ㅘ",
+    "pronunciation": "와",
+    "romanization": "wa",
+    "sound": "wa"
+  },
+  {
+    "character": "ㅙ",
+    "pronunciation": "왜",
+    "romanization": "wae",
+    "sound": "wae"
+  },
+  {
+    "character": "ㅚ",
+    "pronunciation": "외",
+    "romanization": "oe",
+    "sound": "oe"
+  },
+  {
+    "character": "ㅝ",
+    "pronunciation": "워",
+    "romanization": "wo",
+    "sound": "wo"
+  },
+  {
+    "character": "ㅞ",
+    "pronunciation": "웨",
+    "romanization": "we",
+    "sound": "we"
+  },
+  {
+    "character": "ㅟ",
+    "pronunciation": "위",
+    "romanization": "wi",
+    "sound": "wi"
+  },
+  {
+    "character": "ㅢ",
+    "pronunciation": "의",
+    "romanization": "ui",
+    "sound": "ui"
+  }
+]

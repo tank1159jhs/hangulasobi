@@ -1,0 +1,942 @@
+[
+  {
+    "word": "가족",
+    "meaning": {
+      "ko": "가족",
+      "ja": "家族（かぞく）",
+      "en": "family"
+    },
+    "category": "family",
+    "emoji": "👨‍👩‍👧‍👦"
+  },
+  {
+    "word": "엄마",
+    "meaning": {
+      "ko": "엄마",
+      "ja": "お母さん（おかあさん）",
+      "en": "mom"
+    },
+    "category": "family",
+    "emoji": "👩"
+  },
+  {
+    "word": "아빠",
+    "meaning": {
+      "ko": "아빠",
+      "ja": "お父さん（おとうさん）",
+      "en": "dad"
+    },
+    "category": "family",
+    "emoji": "👨"
+  },
+  {
+    "word": "언니",
+    "meaning": {
+      "ko": "언니",
+      "ja": "お姉さん（おねえさん）女性用",
+      "en": "older sister (for female)"
+    },
+    "category": "family",
+    "emoji": "👧"
+  },
+  {
+    "word": "오빠",
+    "meaning": {
+      "ko": "오빠",
+      "ja": "お兄さん（おにいさん）女性用",
+      "en": "older brother (for female)"
+    },
+    "category": "family",
+    "emoji": "👦"
+  },
+  {
+    "word": "누나",
+    "meaning": {
+      "ko": "누나",
+      "ja": "お姉さん（おねえさん）男性用",
+      "en": "older sister (for male)"
+    },
+    "category": "family",
+    "emoji": "👧"
+  },
+  {
+    "word": "형",
+    "meaning": {
+      "ko": "형",
+      "ja": "お兄さん（おにいさん）男性用",
+      "en": "older brother (for male)"
+    },
+    "category": "family",
+    "emoji": "👦"
+  },
+  {
+    "word": "동생",
+    "meaning": {
+      "ko": "동생",
+      "ja": "弟・妹（おとうと・いもうと）",
+      "en": "younger sibling"
+    },
+    "category": "family",
+    "emoji": "👶"
+  },
+  {
+    "word": "사과",
+    "meaning": {
+      "ko": "사과",
+      "ja": "りんご",
+      "en": "apple"
+    },
+    "category": "food",
+    "emoji": "🍎"
+  },
+  {
+    "word": "바나나",
+    "meaning": {
+      "ko": "바나나",
+      "ja": "バナナ",
+      "en": "banana"
+    },
+    "category": "food",
+    "emoji": "🍌"
+  },
+  {
+    "word": "밥",
+    "meaning": {
+      "ko": "밥",
+      "ja": "ご飯（ごはん）",
+      "en": "rice/meal"
+    },
+    "category": "food",
+    "emoji": "🍚"
+  },
+  {
+    "word": "김치",
+    "meaning": {
+      "ko": "김치",
+      "ja": "キムチ",
+      "en": "kimchi"
+    },
+    "category": "food",
+    "emoji": "🥬"
+  },
+  {
+    "word": "라면",
+    "meaning": {
+      "ko": "라면",
+      "ja": "ラーメン",
+      "en": "ramen"
+    },
+    "category": "food",
+    "emoji": "🍜"
+  },
+  {
+    "word": "물",
+    "meaning": {
+      "ko": "물",
+      "ja": "水（みず）",
+      "en": "water"
+    },
+    "category": "food",
+    "emoji": "💧"
+  },
+  {
+    "word": "커피",
+    "meaning": {
+      "ko": "커피",
+      "ja": "コーヒー",
+      "en": "coffee"
+    },
+    "category": "food",
+    "emoji": "☕"
+  },
+  {
+    "word": "빵",
+    "meaning": {
+      "ko": "빵",
+      "ja": "パン",
+      "en": "bread"
+    },
+    "category": "food",
+    "emoji": "🍞"
+  },
+  {
+    "word": "우유",
+    "meaning": {
+      "ko": "우유",
+      "ja": "牛乳（ぎゅうにゅう）",
+      "en": "milk"
+    },
+    "category": "food",
+    "emoji": "🥛"
+  },
+  {
+    "word": "고기",
+    "meaning": {
+      "ko": "고기",
+      "ja": "肉（にく）",
+      "en": "meat"
+    },
+    "category": "food",
+    "emoji": "🥩"
+  },
+  {
+    "word": "생선",
+    "meaning": {
+      "ko": "생선",
+      "ja": "魚（さかな）",
+      "en": "fish"
+    },
+    "category": "food",
+    "emoji": "🐟"
+  },
+  {
+    "word": "하나",
+    "meaning": {
+      "ko": "하나",
+      "ja": "一つ（ひとつ）",
+      "en": "one"
+    },
+    "category": "numbers",
+    "emoji": "1️⃣"
+  },
+  {
+    "word": "둘",
+    "meaning": {
+      "ko": "둘",
+      "ja": "二つ（ふたつ）",
+      "en": "two"
+    },
+    "category": "numbers",
+    "emoji": "2️⃣"
+  },
+  {
+    "word": "셋",
+    "meaning": {
+      "ko": "셋",
+      "ja": "三つ（みっつ）",
+      "en": "three"
+    },
+    "category": "numbers",
+    "emoji": "3️⃣"
+  },
+  {
+    "word": "넷",
+    "meaning": {
+      "ko": "넷",
+      "ja": "四つ（よっつ）",
+      "en": "four"
+    },
+    "category": "numbers",
+    "emoji": "4️⃣"
+  },
+  {
+    "word": "다섯",
+    "meaning": {
+      "ko": "다섯",
+      "ja": "五つ（いつつ）",
+      "en": "five"
+    },
+    "category": "numbers",
+    "emoji": "5️⃣"
+  },
+  {
+    "word": "여섯",
+    "meaning": {
+      "ko": "여섯",
+      "ja": "六つ（むっつ）",
+      "en": "six"
+    },
+    "category": "numbers",
+    "emoji": "6️⃣"
+  },
+  {
+    "word": "일곱",
+    "meaning": {
+      "ko": "일곱",
+      "ja": "七つ（ななつ）",
+      "en": "seven"
+    },
+    "category": "numbers",
+    "emoji": "7️⃣"
+  },
+  {
+    "word": "여덟",
+    "meaning": {
+      "ko": "여덟",
+      "ja": "八つ（やっつ）",
+      "en": "eight"
+    },
+    "category": "numbers",
+    "emoji": "8️⃣"
+  },
+  {
+    "word": "아홉",
+    "meaning": {
+      "ko": "아홉",
+      "ja": "九つ（ここのつ）",
+      "en": "nine"
+    },
+    "category": "numbers",
+    "emoji": "9️⃣"
+  },
+  {
+    "word": "열",
+    "meaning": {
+      "ko": "열",
+      "ja": "十（とお）",
+      "en": "ten"
+    },
+    "category": "numbers",
+    "emoji": "🔟"
+  },
+  {
+    "word": "빨강",
+    "meaning": {
+      "ko": "빨강",
+      "ja": "赤（あか）",
+      "en": "red"
+    },
+    "category": "colors",
+    "emoji": "🔴"
+  },
+  {
+    "word": "파랑",
+    "meaning": {
+      "ko": "파랑",
+      "ja": "青（あお）",
+      "en": "blue"
+    },
+    "category": "colors",
+    "emoji": "🔵"
+  },
+  {
+    "word": "노랑",
+    "meaning": {
+      "ko": "노랑",
+      "ja": "黄色（きいろ）",
+      "en": "yellow"
+    },
+    "category": "colors",
+    "emoji": "🟡"
+  },
+  {
+    "word": "초록",
+    "meaning": {
+      "ko": "초록",
+      "ja": "緑（みどり）",
+      "en": "green"
+    },
+    "category": "colors",
+    "emoji": "🟢"
+  },
+  {
+    "word": "검정",
+    "meaning": {
+      "ko": "검정",
+      "ja": "黒（くろ）",
+      "en": "black"
+    },
+    "category": "colors",
+    "emoji": "⚫"
+  },
+  {
+    "word": "하양",
+    "meaning": {
+      "ko": "하양",
+      "ja": "白（しろ）",
+      "en": "white"
+    },
+    "category": "colors",
+    "emoji": "⚪"
+  },
+  {
+    "word": "개",
+    "meaning": {
+      "ko": "개",
+      "ja": "犬（いぬ）",
+      "en": "dog"
+    },
+    "category": "animals",
+    "emoji": "🐶"
+  },
+  {
+    "word": "고양이",
+    "meaning": {
+      "ko": "고양이",
+      "ja": "猫（ねこ）",
+      "en": "cat"
+    },
+    "category": "animals",
+    "emoji": "🐱"
+  },
+  {
+    "word": "토끼",
+    "meaning": {
+      "ko": "토끼",
+      "ja": "うさぎ",
+      "en": "rabbit"
+    },
+    "category": "animals",
+    "emoji": "🐰"
+  },
+  {
+    "word": "새",
+    "meaning": {
+      "ko": "새",
+      "ja": "鳥（とり）",
+      "en": "bird"
+    },
+    "category": "animals",
+    "emoji": "🐦"
+  },
+  {
+    "word": "물고기",
+    "meaning": {
+      "ko": "물고기",
+      "ja": "魚（さかな）",
+      "en": "fish"
+    },
+    "category": "animals",
+    "emoji": "🐠"
+  },
+  {
+    "word": "학교",
+    "meaning": {
+      "ko": "학교",
+      "ja": "学校（がっこう）",
+      "en": "school"
+    },
+    "category": "places",
+    "emoji": "🏫"
+  },
+  {
+    "word": "집",
+    "meaning": {
+      "ko": "집",
+      "ja": "家（いえ）",
+      "en": "house/home"
+    },
+    "category": "places",
+    "emoji": "🏠"
+  },
+  {
+    "word": "병원",
+    "meaning": {
+      "ko": "병원",
+      "ja": "病院（びょういん）",
+      "en": "hospital"
+    },
+    "category": "places",
+    "emoji": "🏥"
+  },
+  {
+    "word": "식당",
+    "meaning": {
+      "ko": "식당",
+      "ja": "食堂（しょくどう）",
+      "en": "restaurant"
+    },
+    "category": "places",
+    "emoji": "🍽️"
+  },
+  {
+    "word": "은행",
+    "meaning": {
+      "ko": "은행",
+      "ja": "銀行（ぎんこう）",
+      "en": "bank"
+    },
+    "category": "places",
+    "emoji": "🏦"
+  },
+  {
+    "word": "공원",
+    "meaning": {
+      "ko": "공원",
+      "ja": "公園（こうえん）",
+      "en": "park"
+    },
+    "category": "places",
+    "emoji": "🏞️"
+  },
+  {
+    "word": "기쁨",
+    "meaning": {
+      "ko": "기쁨",
+      "ja": "喜び（よろこび）",
+      "en": "joy"
+    },
+    "category": "emotions",
+    "emoji": "😊"
+  },
+  {
+    "word": "슬픔",
+    "meaning": {
+      "ko": "슬픔",
+      "ja": "悲しみ（かなしみ）",
+      "en": "sadness"
+    },
+    "category": "emotions",
+    "emoji": "😢"
+  },
+  {
+    "word": "화남",
+    "meaning": {
+      "ko": "화남",
+      "ja": "怒り（いかり）",
+      "en": "anger"
+    },
+    "category": "emotions",
+    "emoji": "😠"
+  },
+  {
+    "word": "사랑",
+    "meaning": {
+      "ko": "사랑",
+      "ja": "愛（あい）",
+      "en": "love"
+    },
+    "category": "emotions",
+    "emoji": "❤️"
+  },
+  {
+    "word": "맑음",
+    "meaning": {
+      "ko": "맑음",
+      "ja": "晴れ（はれ）",
+      "en": "clear/sunny"
+    },
+    "category": "weather",
+    "emoji": "☀️"
+  },
+  {
+    "word": "비",
+    "meaning": {
+      "ko": "비",
+      "ja": "雨（あめ）",
+      "en": "rain"
+    },
+    "category": "weather",
+    "emoji": "🌧️"
+  },
+  {
+    "word": "눈",
+    "meaning": {
+      "ko": "눈",
+      "ja": "雪（ゆき）",
+      "en": "snow"
+    },
+    "category": "weather",
+    "emoji": "❄️"
+  },
+  {
+    "word": "바람",
+    "meaning": {
+      "ko": "바람",
+      "ja": "風（かぜ）",
+      "en": "wind"
+    },
+    "category": "weather",
+    "emoji": "💨"
+  },
+  {
+    "word": "친구",
+    "meaning": {
+      "ko": "친구",
+      "ja": "友達（ともだち）",
+      "en": "friend"
+    },
+    "category": "people",
+    "emoji": "👫"
+  },
+  {
+    "word": "선생님",
+    "meaning": {
+      "ko": "선생님",
+      "ja": "先生（せんせい）",
+      "en": "teacher"
+    },
+    "category": "people",
+    "emoji": "👨‍🏫"
+  },
+  {
+    "word": "학생",
+    "meaning": {
+      "ko": "학생",
+      "ja": "学生（がくせい）",
+      "en": "student"
+    },
+    "category": "people",
+    "emoji": "👨‍🎓"
+  },
+  {
+    "word": "의사",
+    "meaning": {
+      "ko": "의사",
+      "ja": "医者（いしゃ）",
+      "en": "doctor"
+    },
+    "category": "people",
+    "emoji": "👨‍⚕️"
+  },
+  {
+    "word": "책",
+    "meaning": {
+      "ko": "책",
+      "ja": "本（ほん）",
+      "en": "book"
+    },
+    "category": "objects",
+    "emoji": "📚"
+  },
+  {
+    "word": "연필",
+    "meaning": {
+      "ko": "연필",
+      "ja": "鉛筆（えんぴつ）",
+      "en": "pencil"
+    },
+    "category": "objects",
+    "emoji": "✏️"
+  },
+  {
+    "word": "가방",
+    "meaning": {
+      "ko": "가방",
+      "ja": "鞄（かばん）",
+      "en": "bag"
+    },
+    "category": "objects",
+    "emoji": "👜"
+  },
+  {
+    "word": "시계",
+    "meaning": {
+      "ko": "시계",
+      "ja": "時計（とけい）",
+      "en": "clock/watch"
+    },
+    "category": "objects",
+    "emoji": "⌚"
+  },
+  {
+    "word": "전화",
+    "meaning": {
+      "ko": "전화",
+      "ja": "電話（でんわ）",
+      "en": "phone"
+    },
+    "category": "objects",
+    "emoji": "📱"
+  },
+  {
+    "word": "컴퓨터",
+    "meaning": {
+      "ko": "컴퓨터",
+      "ja": "コンピューター",
+      "en": "computer"
+    },
+    "category": "objects",
+    "emoji": "💻"
+  },
+  {
+    "word": "자동차",
+    "meaning": {
+      "ko": "자동차",
+      "ja": "自動車（じどうしゃ）",
+      "en": "car"
+    },
+    "category": "objects",
+    "emoji": "🚗"
+  },
+  {
+    "word": "버스",
+    "meaning": {
+      "ko": "버스",
+      "ja": "バス",
+      "en": "bus"
+    },
+    "category": "objects",
+    "emoji": "🚌"
+  },
+  {
+    "word": "지하철",
+    "meaning": {
+      "ko": "지하철",
+      "ja": "地下鉄（ちかてつ）",
+      "en": "subway"
+    },
+    "category": "objects",
+    "emoji": "🚇"
+  },
+  {
+    "word": "비행기",
+    "meaning": {
+      "ko": "비행기",
+      "ja": "飛行機（ひこうき）",
+      "en": "airplane"
+    },
+    "category": "objects",
+    "emoji": "✈️"
+  },
+  {
+    "word": "아침",
+    "meaning": {
+      "ko": "아침",
+      "ja": "朝（あさ）",
+      "en": "morning"
+    },
+    "category": "time",
+    "emoji": "🌅"
+  },
+  {
+    "word": "점심",
+    "meaning": {
+      "ko": "점심",
+      "ja": "昼（ひる）",
+      "en": "lunch/noon"
+    },
+    "category": "time",
+    "emoji": "☀️"
+  },
+  {
+    "word": "저녁",
+    "meaning": {
+      "ko": "저녁",
+      "ja": "夕方（ゆうがた）",
+      "en": "evening/dinner"
+    },
+    "category": "time",
+    "emoji": "🌆"
+  },
+  {
+    "word": "밤",
+    "meaning": {
+      "ko": "밤",
+      "ja": "夜（よる）",
+      "en": "night"
+    },
+    "category": "time",
+    "emoji": "🌙"
+  },
+  {
+    "word": "오늘",
+    "meaning": {
+      "ko": "오늘",
+      "ja": "今日（きょう）",
+      "en": "today"
+    },
+    "category": "time",
+    "emoji": "📅"
+  },
+  {
+    "word": "내일",
+    "meaning": {
+      "ko": "내일",
+      "ja": "明日（あした）",
+      "en": "tomorrow"
+    },
+    "category": "time",
+    "emoji": "📆"
+  },
+  {
+    "word": "어제",
+    "meaning": {
+      "ko": "어제",
+      "ja": "昨日（きのう）",
+      "en": "yesterday"
+    },
+    "category": "time",
+    "emoji": "📋"
+  },
+  {
+    "word": "봄",
+    "meaning": {
+      "ko": "봄",
+      "ja": "春（はる）",
+      "en": "spring"
+    },
+    "category": "seasons",
+    "emoji": "🌸"
+  },
+  {
+    "word": "여름",
+    "meaning": {
+      "ko": "여름",
+      "ja": "夏（なつ）",
+      "en": "summer"
+    },
+    "category": "seasons",
+    "emoji": "🏖️"
+  },
+  {
+    "word": "가을",
+    "meaning": {
+      "ko": "가을",
+      "ja": "秋（あき）",
+      "en": "autumn/fall"
+    },
+    "category": "seasons",
+    "emoji": "🍂"
+  },
+  {
+    "word": "겨울",
+    "meaning": {
+      "ko": "겨울",
+      "ja": "冬（ふゆ）",
+      "en": "winter"
+    },
+    "category": "seasons",
+    "emoji": "⛄"
+  },
+  {
+    "word": "크다",
+    "meaning": {
+      "ko": "크다",
+      "ja": "大きい（おおきい）",
+      "en": "big"
+    },
+    "category": "adjectives",
+    "emoji": "📏"
+  },
+  {
+    "word": "작다",
+    "meaning": {
+      "ko": "작다",
+      "ja": "小さい（ちいさい）",
+      "en": "small"
+    },
+    "category": "adjectives",
+    "emoji": "🔍"
+  },
+  {
+    "word": "좋다",
+    "meaning": {
+      "ko": "좋다",
+      "ja": "良い（よい）",
+      "en": "good"
+    },
+    "category": "adjectives",
+    "emoji": "👍"
+  },
+  {
+    "word": "나쁘다",
+    "meaning": {
+      "ko": "나쁘다",
+      "ja": "悪い（わるい）",
+      "en": "bad"
+    },
+    "category": "adjectives",
+    "emoji": "👎"
+  },
+  {
+    "word": "예쁘다",
+    "meaning": {
+      "ko": "예쁘다",
+      "ja": "きれい",
+      "en": "pretty"
+    },
+    "category": "adjectives",
+    "emoji": "✨"
+  },
+  {
+    "word": "맛있다",
+    "meaning": {
+      "ko": "맛있다",
+      "ja": "おいしい",
+      "en": "delicious"
+    },
+    "category": "adjectives",
+    "emoji": "😋"
+  },
+  {
+    "word": "재미있다",
+    "meaning": {
+      "ko": "재미있다",
+      "ja": "面白い（おもしろい）",
+      "en": "fun/interesting"
+    },
+    "category": "adjectives",
+    "emoji": "🎉"
+  },
+  {
+    "word": "어렵다",
+    "meaning": {
+      "ko": "어렵다",
+      "ja": "難しい（むずかしい）",
+      "en": "difficult"
+    },
+    "category": "adjectives",
+    "emoji": "😰"
+  },
+  {
+    "word": "쉽다",
+    "meaning": {
+      "ko": "쉽다",
+      "ja": "易しい（やさしい）",
+      "en": "easy"
+    },
+    "category": "adjectives",
+    "emoji": "😊"
+  },
+  {
+    "word": "빠르다",
+    "meaning": {
+      "ko": "빠르다",
+      "ja": "速い（はやい）",
+      "en": "fast"
+    },
+    "category": "adjectives",
+    "emoji": "⚡"
+  },
+  {
+    "word": "느리다",
+    "meaning": {
+      "ko": "느리다",
+      "ja": "遅い（おそい）",
+      "en": "slow"
+    },
+    "category": "adjectives",
+    "emoji": "🐌"
+  },
+  {
+    "word": "덥다",
+    "meaning": {
+      "ko": "덥다",
+      "ja": "暑い（あつい）",
+      "en": "hot"
+    },
+    "category": "adjectives",
+    "emoji": "🔥"
+  },
+  {
+    "word": "춥다",
+    "meaning": {
+      "ko": "춥다",
+      "ja": "寒い（さむい）",
+      "en": "cold"
+    },
+    "category": "adjectives",
+    "emoji": "🥶"
+  },
+  {
+    "word": "많다",
+    "meaning": {
+      "ko": "많다",
+      "ja": "多い（おおい）",
+      "en": "many/much"
+    },
+    "category": "adjectives",
+    "emoji": "➕"
+  },
+  {
+    "word": "적다",
+    "meaning": {
+      "ko": "적다",
+      "ja": "少ない（すくない）",
+      "en": "few/little"
+    },
+    "category": "adjectives",
+    "emoji": "➖"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "character": "ㄱ",
+    "pronunciation": "기역",
+    "romanization": "giyeok",
+    "sound": "g/k"
+  },
+  {
+    "character": "ㄴ",
+    "pronunciation": "니은",
+    "romanization": "nieun",
+    "sound": "n"
+  },
+  {
+    "character": "ㄷ",
+    "pronunciation": "디귿",
+    "romanization": "digeut",
+    "sound": "d/t"
+  },
+  {
+    "character": "ㄹ",
+    "pronunciation": "리을",
+    "romanization": "rieul",
+    "sound": "r/l"
+  },
+  {
+    "character": "ㅁ",
+    "pronunciation": "미음",
+    "romanization": "mieum",
+    "sound": "m"
+  },
+  {
+    "character": "ㅂ",
+    "pronunciation": "비읍",
+    "romanization": "bieup",
+    "sound": "b/p"
+  },
+  {
+    "character": "ㅅ",
+    "pronunciation": "시옷",
+    "romanization": "siot",
+    "sound": "s"
+  },
+  {
+    "character": "ㅇ",
+    "pronunciation": "이응",
+    "romanization": "ieung",
+    "sound": "ng/silent"
+  },
+  {
+    "character": "ㅈ",
+    "pronunciation": "지읒",
+    "romanization": "jieut",
+    "sound": "j"
+  },
+  {
+    "character": "ㅊ",
+    "pronunciation": "치읓",
+    "romanization": "chieut",
+    "sound": "ch"
+  },
+  {
+    "character": "ㅋ",
+    "pronunciation": "키읔",
+    "romanization": "kieuk",
+    "sound": "k"
+  },
+  {
+    "character": "ㅌ",
+    "pronunciation": "티읕",
+    "romanization": "tieut",
+    "sound": "t"
+  },
+  {
+    "character": "ㅍ",
+    "pronunciation": "피읖",
+    "romanization": "pieup",
+    "sound": "p"
+  },
+  {
+    "character": "ㅎ",
+    "pronunciation": "히읗",
+    "romanization": "hieut",
+    "sound": "h"
+  }
+]
