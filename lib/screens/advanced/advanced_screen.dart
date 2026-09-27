@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'dart:async';
 import 'package:flutter_tts/flutter_tts.dart';
 import '../../models/korean_data.dart';
@@ -85,12 +86,23 @@ class _AdvancedScreenState extends State<AdvancedScreen> with SingleTickerProvid
   }
   
   Future<void> _initTts() async {
+    if (defaultTargetPlatform == TargetPlatform.iOS) {
+      await _flutterTts.setSharedInstance(true);
+    }
     await _flutterTts.setLanguage("ko-KR");
-    await _flutterTts.setSpeechRate(0.5); // 천천히
+    await _flutterTts.setSpeechRate(0.5);
     await _flutterTts.setVolume(1.0);
     await _flutterTts.setPitch(1.0);
-    
+
     _flutterTts.setCompletionHandler(() {
+      if (mounted) {
+        setState(() {
+          _isPlaying = false;
+        });
+      }
+    });
+    _flutterTts.setErrorHandler((msg) {
+      debugPrint('TTS error: $msg');
       if (mounted) {
         setState(() {
           _isPlaying = false;
@@ -564,7 +576,7 @@ class _AdvancedScreenState extends State<AdvancedScreen> with SingleTickerProvid
               ),
             ),
             
-            // 음성 입력
+            // 음성 입력 (문장용 — 15초 인식, 2초 침묵 후 종료)
             SpeechInputWidget(
               onTextChanged: (text) {
                 setState(() {
@@ -575,6 +587,8 @@ class _AdvancedScreenState extends State<AdvancedScreen> with SingleTickerProvid
               lastResult: _lastResult,
               currentInput: _currentInput,
               isDisabled: !_isSpeechReady || _isProcessing || _isPlaying,
+              listenFor: const Duration(seconds: 15),
+              pauseFor: const Duration(seconds: 2),
             ),
           ],
         ),

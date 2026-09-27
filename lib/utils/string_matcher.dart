@@ -39,9 +39,30 @@ class StringMatcher {
     return MatchResult.wrong;
   }
   
+  // 기식음(ㅋ/ㅌ/ㅍ) → 평음(ㄱ/ㄷ/ㅂ) 정규화
+  // STT가 케→게, 타→다, 파→바 등으로 잘못 인식하는 경우 대응
+  static String _normalizeAspiratedConsonants(String text) {
+    // 초성 인덱스: ㄱ=0, ㄷ=3, ㅂ=7, ㅋ=15, ㅌ=16, ㅍ=17
+    const Map<int, int> aspiratedToPlain = {15: 0, 16: 3, 17: 7};
+    final buffer = StringBuffer();
+    for (final char in text.runes) {
+      if (char >= 0xAC00 && char <= 0xD7A3) {
+        final offset = char - 0xAC00;
+        final jongseong = offset % 28;
+        final jungseong = (offset ~/ 28) % 21;
+        final choseong = offset ~/ (28 * 21);
+        final plainChoseong = aspiratedToPlain[choseong] ?? choseong;
+        buffer.writeCharCode(0xAC00 + (plainChoseong * 21 + jungseong) * 28 + jongseong);
+      } else {
+        buffer.writeCharCode(char);
+      }
+    }
+    return buffer.toString();
+  }
+
   // 발음이 유사한 한글 정규화 (ㅐ/ㅔ/ㅒ/ㅖ/ㅙ/ㅞ 등 모두 통일)
   static String _normalizeSimilarSounds(String text) {
-    return text
+    return _normalizeAspiratedConsonants(text
         // ✅ 한글 ㅐ/ㅔ/ㅒ/ㅖ 계열 → 'ㅔ'로 통일
         .replaceAll('개', '게').replaceAll('걔', '게').replaceAll('계', '게')
         .replaceAll('내', '네').replaceAll('냬', '네').replaceAll('녜', '네')
@@ -83,7 +104,7 @@ class StringMatcher {
         // ✅ 로마자 wae/we → wae 통일
         .replaceAll('we', 'wae')
         .replaceAll('gwae', 'gwa').replaceAll('gwe', 'gwa')
-        .replaceAll('kwae', 'kwa').replaceAll('kwe', 'kwa');
+        .replaceAll('kwae', 'kwa').replaceAll('kwe', 'kwa'));
   }
 
   // 여러 타겟 중에서 가장 매칭되는 것 찾기

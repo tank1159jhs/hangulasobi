@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter/foundation.dart';
 import 'dart:async';
 import 'dart:math';
 import '../../models/korean_data.dart';
@@ -15,9 +17,9 @@ class IntermediateScreen extends StatefulWidget {
 
 class _IntermediateScreenState extends State<IntermediateScreen>
     with TickerProviderStateMixin {
-  // ✅ 싱글톤 서비스 사용
   final SpeechService _speechService = SpeechService();
   final DataService _dataService = DataService();
+  final FlutterTts _flutterTts = FlutterTts();
   final Random _random = Random();
 
   List<KoreanWord> _allWords = [];
@@ -54,6 +56,12 @@ class _IntermediateScreenState extends State<IntermediateScreen>
     if (!_speechService.isAvailable) {
       await _speechService.initialize();
     }
+
+    if (defaultTargetPlatform == TargetPlatform.iOS) {
+      await _flutterTts.setSharedInstance(true);
+    }
+    await _flutterTts.setLanguage("ja-JP");
+    await _flutterTts.setSpeechRate(0.5);
 
     setState(() {
       _isLoading = false;
@@ -343,13 +351,30 @@ class _IntermediateScreenState extends State<IntermediateScreen>
     });
   }
 
+  void _onCardTapped(FallingWord fallingWord) {
+    final jaText = fallingWord.word.meaning['ja'];
+    if (jaText != null && jaText.isNotEmpty) {
+      _flutterTts.speak(jaText);
+    }
+    setState(() {
+      fallingWord.showJapanese = true;
+    });
+    Future.delayed(const Duration(seconds: 2), () {
+      if (mounted) {
+        setState(() {
+          fallingWord.showJapanese = false;
+        });
+      }
+    });
+  }
+
   @override
   void dispose() {
     _spawnTimer?.cancel();
     _updateTimer?.cancel();
     _speechCheckTimer?.cancel();
-    // ✅ 화면 떠날 때 음성인식 완전히 정리
     _speechService.stopListening();
+    _flutterTts.stop();
     super.dispose();
   }
 
@@ -509,7 +534,10 @@ class _IntermediateScreenState extends State<IntermediateScreen>
           ..._fallingWords.map((word) => Positioned(
                 left: word.x,
                 top: word.y,
-                child: _buildWordCard(word.word),
+                child: GestureDetector(
+                  onTap: () => _onCardTapped(word),
+                  child: _buildWordCard(word.word, showJapanese: word.showJapanese),
+                ),
               )),
 
           // 상단 정보 표시
@@ -588,13 +616,15 @@ class _IntermediateScreenState extends State<IntermediateScreen>
     );
   }
 
-  Widget _buildWordCard(KoreanWord word) {
-    return Container(
+  Widget _buildWordCard(KoreanWord word, {bool showJapanese = false}) {
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 200),
       width: 120,
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: showJapanese ? Colors.blue.shade50 : Colors.white,
         borderRadius: BorderRadius.circular(10),
+        border: showJapanese ? Border.all(color: Colors.blue.shade300, width: 2) : null,
         boxShadow: [
           BoxShadow(
             color: Colors.black.withValues(alpha: 0.2),
@@ -603,36 +633,58 @@ class _IntermediateScreenState extends State<IntermediateScreen>
           ),
         ],
       ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          // 이모지
-          Text(
-            word.emoji,
-            style: const TextStyle(fontSize: 20),
-          ),
-          const SizedBox(height: 4),
-          // 한글 단어
-          Text(
-            word.word,
-            style: const TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
+      child: showJapanese
+          ? Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  word.emoji,
+                  style: const TextStyle(fontSize: 20),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  word.meaning['ja'] ?? '',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue.shade700,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  word.word,
+                  style: TextStyle(fontSize: 12, color: Colors.grey[500]),
+                ),
+              ],
+            )
+          : Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  word.emoji,
+                  style: const TextStyle(fontSize: 20),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  word.word,
+                  style: const TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                if (word.meaning.containsKey('ja'))
+                  Text(
+                    word.meaning['ja']!,
+                    style: TextStyle(
+                      fontSize: 10,
+                      color: Colors.grey[500],
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+              ],
             ),
-          ),
-          const SizedBox(height: 4),
-          // 일본어 의미
-          if (word.meaning.containsKey('ja'))
-            Text(
-              word.meaning['ja']!,
-              style: TextStyle(
-                fontSize: 10,
-                color: Colors.grey[500],
-              ),
-              textAlign: TextAlign.center,
-            ),
-        ],
-      ),
     );
   }
 }
@@ -643,12 +695,14 @@ class FallingWord {
   double x;
   double y;
   final double speed;
+  bool showJapanese;
 
   FallingWord({
     required this.word,
     required this.x,
     required this.y,
     required this.speed,
+    this.showJapanese = false,
   });
 }
 

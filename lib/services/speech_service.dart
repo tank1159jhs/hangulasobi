@@ -67,6 +67,8 @@ class SpeechService {
     required Function(String) onResult,
     Function(String)? onFinalResult,
     String localeId = 'ko_KR',
+    Duration listenFor = const Duration(seconds: 5),
+    Duration pauseFor = const Duration(seconds: 1),
   }) async {
     debugPrint('🎙️ startListening 호출');
 
@@ -101,8 +103,8 @@ class SpeechService {
         partialResults: true,
         // ignore: deprecated_member_use
         cancelOnError: false,
-        listenFor: const Duration(seconds: 5),
-        pauseFor: const Duration(seconds: 1),
+        listenFor: listenFor,
+        pauseFor: pauseFor,
       );
     } catch (e) {
       debugPrint('❌ 에러: $e');

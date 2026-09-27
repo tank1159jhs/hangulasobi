@@ -7,7 +7,9 @@ class SpeechInputWidget extends StatefulWidget {
   final Function(String) onSubmit;
   final MatchResult? lastResult;
   final String currentInput;
-  final bool isDisabled; // ✅ 비활성화 여부
+  final bool isDisabled;
+  final Duration listenFor;
+  final Duration pauseFor;
 
   const SpeechInputWidget({
     super.key,
@@ -15,7 +17,9 @@ class SpeechInputWidget extends StatefulWidget {
     required this.onSubmit,
     this.lastResult,
     required this.currentInput,
-    this.isDisabled = false, // ✅ 기본값 false
+    this.isDisabled = false,
+    this.listenFor = const Duration(seconds: 5),
+    this.pauseFor = const Duration(seconds: 1),
   });
 
   @override
@@ -121,6 +125,8 @@ class _SpeechInputWidgetState extends State<SpeechInputWidget> {
         _latestText = text;
         _controller.text = text;
       },
+      listenFor: widget.listenFor,
+      pauseFor: widget.pauseFor,
     );
   }
 
@@ -217,6 +223,7 @@ class _SpeechInputWidgetState extends State<SpeechInputWidget> {
                       vertical: 15,
                     ),
                   ),
+                  onTapOutside: (_) => FocusScope.of(context).unfocus(),
                   onSubmitted: widget.onSubmit,
                 ),
               ),
