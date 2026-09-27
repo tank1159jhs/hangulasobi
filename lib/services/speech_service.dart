@@ -13,9 +13,6 @@ class SpeechService {
   bool _isListening = false;
   int _consecutiveErrors = 0;
   String? _lastRecognizedText;
-  
-  // 🔒 음성인식 작업 직렬화를 위한 뮤텍스
-  bool _isOperationInProgress = false;
 
   bool get isAvailable => _isAvailable;
   bool get isListening => _isListening;
@@ -68,87 +65,69 @@ class SpeechService {
   // 음성인식 시작 (한국어로 설정)
   Future<void> startListening({
     required Function(String) onResult,
+    Function(String)? onFinalResult,
     String localeId = 'ko_KR',
   }) async {
     debugPrint('🎙️ startListening 호출');
-    
-    // 🔒 다른 작업이 진행 중이면 대기
-    while (_isOperationInProgress) {
-      debugPrint('⏳ 다른 작업 진행 중 - 대기');
-      await Future.delayed(const Duration(milliseconds: 50));
-    }
-    
-    _isOperationInProgress = true;
-    
-    try {
-      // ✅ 즉시 중지 (대기 시간 최소화)
-      if (_isListening || _speech.isListening) {
-        debugPrint('⚠️ 이미 리스닝 중 - 즉시 중지');
-        await _speech.stop();
-        _isListening = false;
-        
-        // 🔥 중요: 오디오 엔진이 완전히 정지할 때까지 대기
-        await Future.delayed(const Duration(milliseconds: 300));
-      }
 
+    // 이미 리스닝 중이면 먼저 중지
+    if (_isListening || _speech.isListening) {
+      debugPrint('⚠️ 이미 리스닝 중 - 중지 후 재시작');
+      await _speech.stop();
+      _isListening = false;
+      await Future.delayed(const Duration(milliseconds: 100));
+    }
+
+    try {
       _isListening = true;
       _lastRecognizedText = null;
       debugPrint('▶️ 음성인식 시작');
-      
+
       await _speech.listen(
         onResult: (result) {
           final words = result.recognizedWords;
-          debugPrint('🎤 인식: "$words"');
-          
+          debugPrint('🎤 인식: "$words" (final: ${result.finalResult})');
+
           if (words.isNotEmpty) {
             _lastRecognizedText = words;
             onResult(words);
+            if (result.finalResult && onFinalResult != null) {
+              onFinalResult(words);
+            }
           }
         },
         localeId: localeId,
         // ignore: deprecated_member_use
-        partialResults: true, // 실시간 표시
+        partialResults: true,
         // ignore: deprecated_member_use
         cancelOnError: false,
-        listenFor: const Duration(seconds: 5), // ✅ 10초 → 5초로 단축
-        pauseFor: const Duration(seconds: 1), // ✅ 10초 → 1초로 단축 (말 멈추면 1초 후 자동 중지)
+        listenFor: const Duration(seconds: 5),
+        pauseFor: const Duration(seconds: 1),
       );
-      
-      // 🔥 중요: 리스닝 시작 후 오디오 엔진이 안정화될 때까지 대기
-      await Future.delayed(const Duration(milliseconds: 200));
-      
     } catch (e) {
       debugPrint('❌ 에러: $e');
       _isListening = false;
       rethrow;
-    } finally {
-      _isOperationInProgress = false;
     }
   }
 
-  // 음성인식 중지
-  Future<void> stopListening() async {
+  // 음성인식 중지 — 최종 결과를 기다리는 콜백 지원
+  Future<void> stopListening({Function(String)? onFinalResult}) async {
     debugPrint('🛑 stopListening 호출');
-    
-    // 🔒 다른 작업이 진행 중이면 대기
-    while (_isOperationInProgress) {
-      debugPrint('⏳ 다른 작업 진행 중 - 대기');
-      await Future.delayed(const Duration(milliseconds: 50));
+
+    if (!_isListening && !_speech.isListening) {
+      debugPrint('이미 중지됨');
+      return;
     }
-    
-    _isOperationInProgress = true;
-    
-    try {
-      if (_isListening || _speech.isListening) {
-        await _speech.stop();
-        _isListening = false;
-        debugPrint('✅ 중지 완료');
-        
-        // 🔥 중요: 오디오 엔진이 완전히 정지할 때까지 대기
-        await Future.delayed(const Duration(milliseconds: 300));
-      }
-    } finally {
-      _isOperationInProgress = false;
+
+    await _speech.stop();
+    _isListening = false;
+    debugPrint('✅ 중지 완료');
+
+    // 최종 결과 콜백이 있으면 엔진이 마지막 결과를 보낼 시간을 줌 (최소 지연)
+    if (onFinalResult != null && _lastRecognizedText != null) {
+      await Future.delayed(const Duration(milliseconds: 80));
+      onFinalResult(_lastRecognizedText!);
     }
   }
   

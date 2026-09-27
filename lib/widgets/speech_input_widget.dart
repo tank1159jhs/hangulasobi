@@ -27,6 +27,7 @@ class _SpeechInputWidgetState extends State<SpeechInputWidget> {
   final TextEditingController _controller = TextEditingController();
   bool _isListening = false;
   bool _isInitializing = false;
+  String _latestText = ''; // stop 이후 최종 결과 캡처용
 
   @override
   void initState() {
@@ -58,7 +59,7 @@ class _SpeechInputWidgetState extends State<SpeechInputWidget> {
     
     if (!mounted) return; // ✅ 최상단에서 mounted 체크
     
-    // ✅ 비활성화되면 음성인식 즉시 중지
+    // 비활성화되면 음성인식 즉시 중지
     if (!oldWidget.isDisabled && widget.isDisabled) {
       debugPrint('🔴 비활성화됨 - 음성인식 강제 중지');
       if (_isListening) {
@@ -70,8 +71,8 @@ class _SpeechInputWidgetState extends State<SpeechInputWidget> {
         }
       }
     }
-    
-    // ✅ 활성화되면 상태 리셋
+
+    // 활성화되면 상태 리셋
     if (oldWidget.isDisabled && !widget.isDisabled) {
       debugPrint('🟢 활성화됨 - 상태 리셋');
       if (_isListening) {
@@ -97,28 +98,27 @@ class _SpeechInputWidgetState extends State<SpeechInputWidget> {
   @override
   void dispose() {
     _controller.dispose();
-    _speechService.stopListening();
+    _speechService.cancel();
     super.dispose();
   }
 
   // 버튼 누르기: 음성인식 시작
   void _startListening() {
     if (!mounted || _isListening || widget.isDisabled) return;
-    
+
     debugPrint('👆 버튼 누름 - 리스닝 시작');
     _controller.clear();
-    
+    _latestText = '';
+
     setState(() {
       _isListening = true;
     });
-    
+
     _speechService.startListening(
       onResult: (text) {
         if (!mounted) return;
-        
         debugPrint('🎤 인식 중: "$text"');
-        
-        // TextField에만 표시 (매칭은 하지 않음)
+        _latestText = text;
         _controller.text = text;
       },
     );
@@ -127,26 +127,26 @@ class _SpeechInputWidgetState extends State<SpeechInputWidget> {
   // 버튼 떼기: 음성인식 중지 & 제출
   Future<void> _stopListening() async {
     if (!mounted || !_isListening) return;
-    
-    debugPrint('👆 버튼 뗌 - 제출');
-    
-    // 현재 텍스트 저장
-    final text = _controller.text.trim();
-    
-    // 음성인식 즉시 중지
-    await _speechService.stopListening();
-    
-    if (!mounted) return;
-    
+
+    debugPrint('👆 버튼 뗌 - 중지');
+
     setState(() {
       _isListening = false;
     });
-    
-    // 짧은 대기 후 제출
-    await Future.delayed(const Duration(milliseconds: 100));
-    
+
+    // stop 호출 — 최종 결과가 있으면 _latestText 업데이트
+    await _speechService.stopListening(
+      onFinalResult: (text) {
+        if (mounted) {
+          _latestText = text;
+          _controller.text = text;
+        }
+      },
+    );
+
     if (!mounted) return;
-    
+
+    final text = _latestText.trim();
     if (text.isNotEmpty) {
       debugPrint('📤 제출: "$text"');
       widget.onSubmit(text);
